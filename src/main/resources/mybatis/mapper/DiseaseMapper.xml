@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="om.cui.phs.mapper.DiseaseMapper">
+    <resultMap id="RM_DiseaseVo" type="com.cui.phs.entity.DiseaseEntity">
+        <result column="id" property="id"/>
+        <result column="name" property="name"/>
+        <result column="description" property="description"/>
+        <result column="imageId" property="imageId"/>
+        <result column="videoUrl" property="videoUrl"/>
+        <result column="kindId" property="kindId"/>
+    </resultMap>
+
+    <resultMap id="RM_ImageVo" type="com.cui.phs.entity.ImageEntity">
+        <result column="id" property="id"/>
+        <result column="name" property="name"/>
+        <result column="nextId" property="nextId"/>
+        <result column="url" property="url"/>
+    </resultMap>
+
+    <select id = "listDiseaseByKind" resultMap="RM_DiseaseVo">
+        select * from phs_disease
+        where kindId=#{kindId}
+    </select>
+
+    <select id = "findDisease" resultMap="RM_DiseaseVo">
+        select * from phs_disease
+        where id=#{id}
+    </select>
+
+    <select id = "findImage" resultMap="RM_ImageVo">
+        select * from phs_image
+        where id=#{id}
+    </select>
+
+</mapper>

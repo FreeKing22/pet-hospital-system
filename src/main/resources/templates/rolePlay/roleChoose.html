@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>角色扮演-虚拟宠物医院学习系统</title>
+    <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="css/demo.css" />
+    <link rel="stylesheet" type="text/css" href="css/index.css" />
+    <style>
+        .module-btn p {
+            width: 30%;
+        }
+        .codrops-header a{
+            border-bottom: 1px dashed;
+            padding-bottom: 0.3em;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <header class="codrops-header">
+        <h1>角色体验</h1>
+        <p>Role Playing</p>
+        <a href="../index">返回主页</a>
+    </header>
+    <section>
+        <div class="module-btn">
+            <p><a href="../rolePlay/doctor">医师</a></p>
+            <p><a href="../rolePlay/assistant">助理</a></p>
+            <p><a href="../rolePlay/receptionist">前台</a></p>
+        </div>
+        <div class="module-txt">
+            <p>医师，是指受过高等医学教育或长期从事医疗卫生工作的、经国家卫生部门审查合格的高级医务卫生人员。</p>
+            <p>在执业医师指导下，在医疗、预防、保健机构中试用期满一年的，可以参加执业助理医师资格考试。</p>
+            <p>前台接待是现代企业职位之一,通常主要负责客户的来访及登记、电话转接等事务。</p>
+        </div>
+    </section>
+</div>
+<script src="js/modernizr.custom.js"></script>
+<script type="text/javascript" src="js/canvas-particle.js"></script>
+<script type="text/javascript">
+    window.onload = function() {
+        var config = {
+            vx: 4,
+            vy: 4,
+            height: 3,
+            width: 3,
+            count: 150,
+            color: "121, 162, 185",
+            stroke: "100,200,180",
+            dist: 6000,
+            e_dist: 20000,
+            max_conn: 10
+        }
+        CanvasParticle(config);
+    }
+</script>
+</body>
+</html>

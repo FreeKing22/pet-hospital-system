@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>3D导览-虚拟宠物医院学习系统</title>
+    <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="css/demo.css" />
+    <link rel="stylesheet" type="text/css" href="css/index.css" />
+</head>
+<body>
+<div class="container">
+    <header class="codrops-header">
+        <h1>3D医院导览</h1>
+        <p>3D Navigation</p>
+    </header>
+    <section>
+    </section>
+</div>
+<script type="text/javascript" src="js/modernizr.custom.js"></script>
+<script type="text/javascript" src="js/canvas-particle.js"></script>
+<script type="text/javascript">
+    window.onload = function() {
+        var config = {
+            vx: 4,
+            vy: 4,
+            height: 3,
+            width: 3,
+            count: 150,
+            color: "121, 162, 185",
+            stroke: "100,200,180",
+            dist: 6000,
+            e_dist: 20000,
+            max_conn: 10
+        }
+        CanvasParticle(config);
+    }
+</script>
+</body>
+</html>

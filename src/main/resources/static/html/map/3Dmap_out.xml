@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tour start="node1">
+  <panorama id="node1">
+    <view fovmode="0" pannorth="0">
+      <start pan="0" fov="70" tilt="0"/>
+      <min pan="0" fov="5" tilt="-90"/>
+      <max pan="360" fov="120" tilt="90"/>
+    </view>
+    <userdata title="前台" datetime="" description="" copyright="" tags="" author="" source="" comment="" info="" longitude="" latitude=""/>
+    <hotspots width="180" height="20" wordwrap="1">
+      <label width="180" backgroundalpha="1" enabled="1" height="20" backgroundcolor="0xffffff" bordercolor="0x000000" border="1" textcolor="0x000000" background="1" borderalpha="1" borderradius="1" wordwrap="1" textalpha="1"/>
+      <polystyle mode="0" backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1"/>
+      <hotspot title="进入档案室" target="333/-3.5/70" pan="0.5241400000000001" skinid="up" url="{node2}" id="Point01" tilt="-2.07211"/>
+      <hotspot title="进入药房" target="0/0/70" pan="177.65" skinid="" url="{node9}" id="Point02" tilt="8.965820000000001"/>
+    </hotspots>
+    <media/>
+    <input tile0url="images/qiantai_o_0.jpg" prev5url="images/qiantai_o_preview_5.jpg" prev4url="images/qiantai_o_preview_4.jpg" prev3url="images/qiantai_o_preview_3.jpg" prev2url="images/qiantai_o_preview_2.jpg" prev1url="images/qiantai_o_preview_1.jpg" prev0url="images/qiantai_o_preview_0.jpg" tile5url="images/qiantai_o_5.jpg" tilesize="1096" tile4url="images/qiantai_o_4.jpg" tile3url="images/qiantai_o_3.jpg" tilescale="1.009124087591241" tile2url="images/qiantai_o_2.jpg" tile1url="images/qiantai_o_1.jpg">
+      <preview color="0x808080"/>
+    </input>
+    <control simulatemass="1" lockedmouse="0" lockedkeyboard="0" dblclickfullscreen="0" invertwheel="0" lockedwheel="0" invertcontrol="1" speedwheel="1" sensitivity="8"/>
+  </panorama>
+  <panorama id="node2">
+    <view fovmode="0" pannorth="0">
+      <start pan="0" fov="70" tilt="0"/>
+      <min pan="0" fov="5" tilt="-90"/>
+      <max pan="360" fov="120" tilt="90"/>
+    </view>
+    <userdata title="档案室" datetime="" description="" copyright="" tags="" author="" source="" comment="" info="" longitude="" latitude=""/>
+    <hotspots width="180" height="20" wordwrap="1">
+      <label width="180" backgroundalpha="1" enabled="1" height="20" backgroundcolor="0xffffff" bordercolor="0x000000" border="1" textcolor="0x000000" background="1" borderalpha="1" borderradius="1" wordwrap="1" textalpha="1"/>
+      <polystyle mode="0" backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1"/>
+      <hotspot title="进入化验室" target="351.5/-10.5/70" pan="166.785" skinid="arrow" url="{node5}" id="Point01" tilt="-3.06172"/>
+      <hotspot title="进入前台" target="47.5/0.5/70" pan="-148.393" skinid="" url="{node1}" id="Point02" tilt="-6.15651"/>
+    </hotspots>
+    <media/>
+    <input tile0url="images/danganshi_o_0.jpg" prev5url="images/danganshi_o_preview_5.jpg" prev4url="images/danganshi_o_preview_4.jpg" prev3url="images/danganshi_o_preview_3.jpg" prev2url="images/danganshi_o_preview_2.jpg" prev1url="images/danganshi_o_preview_1.jpg" prev0url="images/danganshi_o_preview_0.jpg" tile5url="images/danganshi_o_5.jpg" tilesize="1096" tile4url="images/danganshi_o_4.jpg" tile3url="images/danganshi_o_3.jpg" tilescale="1.009124087591241" tile2url="images/danganshi_o_2.jpg" tile1url="images/danganshi_o_1.jpg">
+      <preview color="0x808080"/>
+    </input>
+    <control simulatemass="1" lockedmouse="0" lockedkeyboard="0" dblclickfullscreen="0" invertwheel="0" lockedwheel="0" invertcontrol="1" speedwheel="1" sensitivity="8"/>
+  </panorama>
+  <panorama id="node3">
+    <view fovmode="0" pannorth="0">
+      <start pan="0" fov="70" tilt="0"/>
+      <min pan="0" fov="5" tilt="-90"/>
+      <max pan="360" fov="120" tilt="90"/>
+    </view>
+    <userdata title="诊室" datetime="" description="" copyright="" tags="" author="" source="" comment="" info="" longitude="" latitude=""/>
+    <hotspots width="180" height="20" wordwrap="1">
+      <label width="180" backgroundalpha="1" enabled="1" height="20" backgroundcolor="0xffffff" bordercolor="0x000000" border="1" textcolor="0x000000" background="1" borderalpha="1" borderradius="1" wordwrap="1" textalpha="1"/>
+      <polystyle mode="0" backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1"/>
+      <hotspot title="进入免疫室" target="158/-0.5/70" pan="-80.0654" skinid="" url="{node4}" id="Point01" tilt="-5.35206"/>
+      <hotspot title="进入影像室" target="0/0/70" pan="-147.832" skinid="" url="{node6}" id="Point02" tilt="-5.26904"/>
+    </hotspots>
+    <media/>
+    <input tile0url="images/zhenshi_o_0.jpg" prev5url="images/zhenshi_o_preview_5.jpg" prev4url="images/zhenshi_o_preview_4.jpg" prev3url="images/zhenshi_o_preview_3.jpg" prev2url="images/zhenshi_o_preview_2.jpg" prev1url="images/zhenshi_o_preview_1.jpg" prev0url="images/zhenshi_o_preview_0.jpg" tile5url="images/zhenshi_o_5.jpg" tilesize="1096" tile4url="images/zhenshi_o_4.jpg" tile3url="images/zhenshi_o_3.jpg" tilescale="1.009124087591241" tile2url="images/zhenshi_o_2.jpg" tile1url="images/zhenshi_o_1.jpg">
+      <preview color="0x808080"/>
+    </input>
+    <control simulatemass="1" lockedmouse="0" lockedkeyboard="0" dblclickfullscreen="0" invertwheel="0" lockedwheel="0" invertcontrol="1" speedwheel="1" sensitivity="8"/>
+  </panorama>
+  <panorama id="node4">
+    <view fovmode="0" pannorth="0">
+      <start pan="0" fov="70" tilt="0"/>
+      <min pan="0" fov="5" tilt="-90"/>
+      <max pan="360" fov="120" tilt="90"/>
+    </view>
+    <userdata title="免疫室" datetime="" description="" copyright="" tags="" author="" source="" comment="" info="" longitude="" latitude=""/>
+    <hotspots width="180" height="20" wordwrap="1">
+      <label width="180" backgroundalpha="1" enabled="1" height="20" backgroundcolor="0xffffff" bordercolor="0x000000" border="1" textcolor="0x000000" background="1" borderalpha="1" borderradius="1" wordwrap="1" textalpha="1"/>
+      <polystyle mode="0" backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1"/>
+      <hotspot title="进入化验室" target="0/0/70" pan="-63.3577" skinid="" url="{node5}" id="Point01" tilt="-4.47869"/>
+      <hotspot title="进入诊室" target="0/0/70" pan="115.828" skinid="" url="{node3}" id="Point02" tilt="2.39157"/>
+    </hotspots>
+    <media/>
+    <input tile0url="images/mianyishi_o_0.jpg" prev5url="images/mianyishi_o_preview_5.jpg" prev4url="images/mianyishi_o_preview_4.jpg" prev3url="images/mianyishi_o_preview_3.jpg" prev2url="images/mianyishi_o_preview_2.jpg" prev1url="images/mianyishi_o_preview_1.jpg" prev0url="images/mianyishi_o_preview_0.jpg" tile5url="images/mianyishi_o_5.jpg" tilesize="1096" tile4url="images/mianyishi_o_4.jpg" tile3url="images/mianyishi_o_3.jpg" tilescale="1.009124087591241" tile2url="images/mianyishi_o_2.jpg" tile1url="images/mianyishi_o_1.jpg">
+      <preview color="0x808080"/>
+    </input>
+    <control simulatemass="1" lockedmouse="0" lockedkeyboard="0" dblclickfullscreen="0" invertwheel="0" lockedwheel="0" invertcontrol="1" speedwheel="1" sensitivity="8"/>
+  </panorama>
+  <panorama id="node5">
+    <view fovmode="0" pannorth="0">
+      <start pan="0" fov="70" tilt="0"/>
+      <min pan="0" fov="5" tilt="-90"/>
+      <max pan="360" fov="120" tilt="90"/>
+    </view>
+    <userdata title="化验室" datetime="" description="" copyright="" tags="" author="" source="" comment="" info="" longitude="" latitude=""/>
+    <hotspots width="180" height="20" wordwrap="1">
+      <label width="180" backgroundalpha="1" enabled="1" height="20" backgroundcolor="0xffffff" bordercolor="0x000000" border="1" textcolor="0x000000" background="1" borderalpha="1" borderradius="1" wordwrap="1" textalpha="1"/>
+      <polystyle mode="0" backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1"/>
+      <hotspot title="进入免疫室" target="302.5/-15.5/70" pan="161.049" skinid="arrow" url="{node4}" id="Point01" tilt="-13.4418"/>
+      <hotspot title="进入档案室" target="328.5/3.5/70" pan="-62.1318" skinid="" url="{node2}" id="Point02" tilt="-19.1143"/>
+    </hotspots>
+    <media/>
+    <input tile0url="images/huayanshi_o_0.jpg" prev5url="images/huayanshi_o_preview_5.jpg" prev4url="images/huayanshi_o_preview_4.jpg" prev3url="images/huayanshi_o_preview_3.jpg" prev2url="images/huayanshi_o_preview_2.jpg" prev1url="images/huayanshi_o_preview_1.jpg" prev0url="images/huayanshi_o_preview_0.jpg" tile5url="images/huayanshi_o_5.jpg" tilesize="1096" tile4url="images/huayanshi_o_4.jpg" tile3url="images/huayanshi_o_3.jpg" tilescale="1.009124087591241" tile2url="images/huayanshi_o_2.jpg" tile1url="images/huayanshi_o_1.jpg">
+      <preview color="0x808080"/>
+    </input>
+    <control simulatemass="1" lockedmouse="0" lockedkeyboard="0" dblclickfullscreen="0" invertwheel="0" lockedwheel="0" invertcontrol="1" speedwheel="1" sensitivity="8"/>
+  </panorama>
+  <panorama id="node6">
+    <view fovmode="0" pannorth="0">
+      <start pan="0" fov="70" tilt="0"/>
+      <min pan="0" fov="5" tilt="-90"/>
+      <max pan="360" fov="120" tilt="90"/>
+    </view>
+    <userdata title="影像室" datetime="" description="" copyright="" tags="" author="" source="" comment="" info="" longitude="" latitude=""/>
+    <hotspots width="180" height="20" wordwrap="1">
+      <label width="180" backgroundalpha="1" enabled="1" height="20" backgroundcolor="0xffffff" bordercolor="0x000000" border="1" textcolor="0x000000" background="1" borderalpha="1" borderradius="1" wordwrap="1" textalpha="1"/>
+      <polystyle mode="0" backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1"/>
+      <hotspot title="进入大厅（前台）" target="25.5/-0.5/70" pan="-87.3357" skinid="" url="{node1}" id="Point01" tilt="-3.25884"/>
+      <hotspot title="进入诊室" target="0/0/70" pan="163.937" skinid="" url="{node3}" id="Point02" tilt="0.854228"/>
+    </hotspots>
+    <media/>
+    <input tile0url="images/yingxiangshi_o_0.jpg" prev5url="images/yingxiangshi_o_preview_5.jpg" prev4url="images/yingxiangshi_o_preview_4.jpg" prev3url="images/yingxiangshi_o_preview_3.jpg" prev2url="images/yingxiangshi_o_preview_2.jpg" prev1url="images/yingxiangshi_o_preview_1.jpg" prev0url="images/yingxiangshi_o_preview_0.jpg" tile5url="images/yingxiangshi_o_5.jpg" tilesize="1096" tile4url="images/yingxiangshi_o_4.jpg" tile3url="images/yingxiangshi_o_3.jpg" tilescale="1.009124087591241" tile2url="images/yingxiangshi_o_2.jpg" tile1url="images/yingxiangshi_o_1.jpg">
+      <preview color="0x808080"/>
+    </input>
+    <control simulatemass="1" lockedmouse="0" lockedkeyboard="0" dblclickfullscreen="0" invertwheel="0" lockedwheel="0" invertcontrol="1" speedwheel="1" sensitivity="8"/>
+  </panorama>
+  <panorama id="node7">
+    <view fovmode="0" pannorth="0">
+      <start pan="0" fov="70" tilt="0"/>
+      <min pan="0" fov="5" tilt="-90"/>
+      <max pan="360" fov="120" tilt="90"/>
+    </view>
+    <userdata title="专科检查室" datetime="" description="" copyright="" tags="" author="" source="" comment="" info="" longitude="" latitude=""/>
+    <hotspots width="180" height="20" wordwrap="1">
+      <label width="180" backgroundalpha="1" enabled="1" height="20" backgroundcolor="0xffffff" bordercolor="0x000000" border="1" textcolor="0x000000" background="1" borderalpha="1" borderradius="1" wordwrap="1" textalpha="1"/>
+      <polystyle mode="0" backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1"/>
+      <hotspot title="进入前台" target="0/0/70" pan="-178.318" skinid="" url="{node1}" id="Point01" tilt="-0.7812170000000001"/>
+      <hotspot title="进入处置室" target="0/0/70" pan="-94.4566" skinid="" url="{node8}" id="Point02" tilt="-3.06482"/>
+    </hotspots>
+    <media/>
+    <input tile0url="images/zhuankejianchashi_o_0.jpg" prev5url="images/zhuankejianchashi_o_preview_5.jpg" prev4url="images/zhuankejianchashi_o_preview_4.jpg" prev3url="images/zhuankejianchashi_o_preview_3.jpg" prev2url="images/zhuankejianchashi_o_preview_2.jpg" prev1url="images/zhuankejianchashi_o_preview_1.jpg" prev0url="images/zhuankejianchashi_o_preview_0.jpg" tile5url="images/zhuankejianchashi_o_5.jpg" tilesize="1096" tile4url="images/zhuankejianchashi_o_4.jpg" tile3url="images/zhuankejianchashi_o_3.jpg" tilescale="1.009124087591241" tile2url="images/zhuankejianchashi_o_2.jpg" tile1url="images/zhuankejianchashi_o_1.jpg">
+      <preview color="0x808080"/>
+    </input>
+    <control simulatemass="1" lockedmouse="0" lockedkeyboard="0" dblclickfullscreen="0" invertwheel="0" lockedwheel="0" invertcontrol="1" speedwheel="1" sensitivity="8"/>
+  </panorama>
+  <panorama id="node8">
+    <view fovmode="0" pannorth="0">
+      <start pan="0" fov="70" tilt="0"/>
+      <min pan="0" fov="5" tilt="-90"/>
+      <max pan="360" fov="120" tilt="90"/>
+    </view>
+    <userdata title="处置室" datetime="" description="" copyright="" tags="" author="" source="" comment="" info="" longitude="" latitude=""/>
+    <hotspots width="180" height="20" wordwrap="1">
+      <label width="180" backgroundalpha="1" enabled="1" height="20" backgroundcolor="0xffffff" bordercolor="0x000000" border="1" textcolor="0x000000" background="1" borderalpha="1" borderradius="1" wordwrap="1" textalpha="1"/>
+      <polystyle mode="0" backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1"/>
+      <hotspot title="进入专科检查室" target="322.5/-2.5/70" pan="-134.234" skinid="" url="{node7}" id="Point01" tilt="0.742425"/>
+      <hotspot title="进入药房" target="0/0/70" pan="136.914" skinid="" url="{node9}" id="Point02" tilt="-0.386021"/>
+    </hotspots>
+    <media/>
+    <input tile0url="images/chuzhishi_o_0.jpg" prev5url="images/chuzhishi_o_preview_5.jpg" prev4url="images/chuzhishi_o_preview_4.jpg" prev3url="images/chuzhishi_o_preview_3.jpg" prev2url="images/chuzhishi_o_preview_2.jpg" prev1url="images/chuzhishi_o_preview_1.jpg" prev0url="images/chuzhishi_o_preview_0.jpg" tile5url="images/chuzhishi_o_5.jpg" tilesize="1096" tile4url="images/chuzhishi_o_4.jpg" tile3url="images/chuzhishi_o_3.jpg" tilescale="1.009124087591241" tile2url="images/chuzhishi_o_2.jpg" tile1url="images/chuzhishi_o_1.jpg">
+      <preview color="0x808080"/>
+    </input>
+    <control simulatemass="1" lockedmouse="0" lockedkeyboard="0" dblclickfullscreen="0" invertwheel="0" lockedwheel="0" invertcontrol="1" speedwheel="1" sensitivity="8"/>
+  </panorama>
+  <panorama id="node9">
+    <view fovmode="0" pannorth="0">
+      <start pan="0" fov="70" tilt="0"/>
+      <min pan="0" fov="5" tilt="-90"/>
+      <max pan="360" fov="120" tilt="90"/>
+    </view>
+    <userdata title="药房" datetime="" description="" copyright="" tags="" author="" source="" comment="" info="" longitude="" latitude=""/>
+    <hotspots width="180" height="20" wordwrap="1">
+      <label width="180" backgroundalpha="1" enabled="1" height="20" backgroundcolor="0xffffff" bordercolor="0x000000" border="1" textcolor="0x000000" background="1" borderalpha="1" borderradius="1" wordwrap="1" textalpha="1"/>
+      <polystyle mode="0" backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1"/>
+      <hotspot title="进入处置室" target="21/-2/70" pan="45.4498" skinid="" url="{node8}" id="Point01" tilt="-0.775097"/>
+      <hotspot title="进入前台" target="0/0/70" pan="-51.8767" skinid="" url="{node1}" id="Point02" tilt="-2.6019"/>
+    </hotspots>
+    <media/>
+    <input tile0url="images/yaofang_o_0.jpg" prev5url="images/yaofang_o_preview_5.jpg" prev4url="images/yaofang_o_preview_4.jpg" prev3url="images/yaofang_o_preview_3.jpg" prev2url="images/yaofang_o_preview_2.jpg" prev1url="images/yaofang_o_preview_1.jpg" prev0url="images/yaofang_o_preview_0.jpg" tile5url="images/yaofang_o_5.jpg" tilesize="1096" tile4url="images/yaofang_o_4.jpg" tile3url="images/yaofang_o_3.jpg" tilescale="1.009124087591241" tile2url="images/yaofang_o_2.jpg" tile1url="images/yaofang_o_1.jpg">
+      <preview color="0x808080"/>
+    </input>
+    <control simulatemass="1" lockedmouse="0" lockedkeyboard="0" dblclickfullscreen="0" invertwheel="0" lockedwheel="0" invertcontrol="1" speedwheel="1" sensitivity="8"/>
+  </panorama>
+  <panorama id="node10">
+    <view fovmode="0" pannorth="0">
+      <start pan="0" fov="70" tilt="0"/>
+      <min pan="0" fov="5" tilt="-90"/>
+      <max pan="360" fov="120" tilt="90"/>
+    </view>
+    <userdata title="手术准备室" datetime="" description="" copyright="" tags="" author="" source="" comment="" info="" longitude="" latitude=""/>
+    <hotspots width="180" height="20" wordwrap="1">
+      <label width="180" backgroundalpha="1" enabled="1" height="20" backgroundcolor="0xffffff" bordercolor="0x000000" border="1" textcolor="0x000000" background="1" borderalpha="1" borderradius="1" wordwrap="1" textalpha="1"/>
+      <polystyle mode="0" backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1"/>
+      <hotspot title="进入手术室" target="0/0/70" pan="-173.037" skinid="" url="{node11}" id="Point01" tilt="-11.0338"/>
+    </hotspots>
+    <media/>
+    <input tile0url="images/shoushuzhunbeishi_o_0.jpg" prev5url="images/shoushuzhunbeishi_o_preview_5.jpg" prev4url="images/shoushuzhunbeishi_o_preview_4.jpg" prev3url="images/shoushuzhunbeishi_o_preview_3.jpg" prev2url="images/shoushuzhunbeishi_o_preview_2.jpg" prev1url="images/shoushuzhunbeishi_o_preview_1.jpg" prev0url="images/shoushuzhunbeishi_o_preview_0.jpg" tile5url="images/shoushuzhunbeishi_o_5.jpg" tilesize="1096" tile4url="images/shoushuzhunbeishi_o_4.jpg" tile3url="images/shoushuzhunbeishi_o_3.jpg" tilescale="1.009124087591241" tile2url="images/shoushuzhunbeishi_o_2.jpg" tile1url="images/shoushuzhunbeishi_o_1.jpg">
+      <preview color="0x808080"/>
+    </input>
+    <control simulatemass="1" lockedmouse="0" lockedkeyboard="0" dblclickfullscreen="0" invertwheel="0" lockedwheel="0" invertcontrol="1" speedwheel="1" sensitivity="8"/>
+  </panorama>
+  <panorama id="node11">
+    <view fovmode="0" pannorth="0">
+      <start pan="0" fov="70" tilt="0"/>
+      <min pan="0" fov="5" tilt="-90"/>
+      <max pan="360" fov="120" tilt="90"/>
+    </view>
+    <userdata title="手术室" datetime="" description="" copyright="" tags="" author="" source="" comment="" info="" longitude="" latitude=""/>
+    <hotspots width="180" height="20" wordwrap="1">
+      <label width="180" backgroundalpha="1" enabled="1" height="20" backgroundcolor="0xffffff" bordercolor="0x000000" border="1" textcolor="0x000000" background="1" borderalpha="1" borderradius="1" wordwrap="1" textalpha="1"/>
+      <polystyle mode="0" backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1"/>
+      <hotspot title="进入手术准备室" target="0/0/70" pan="125.327" skinid="" url="{node10}" id="Point01" tilt="-4.70593"/>
+    </hotspots>
+    <media/>
+    <input tile0url="images/shoushushi_o_0.jpg" prev5url="images/shoushushi_o_preview_5.jpg" prev4url="images/shoushushi_o_preview_4.jpg" prev3url="images/shoushushi_o_preview_3.jpg" prev2url="images/shoushushi_o_preview_2.jpg" prev1url="images/shoushushi_o_preview_1.jpg" prev0url="images/shoushushi_o_preview_0.jpg" tile5url="images/shoushushi_o_5.jpg" tilesize="1096" tile4url="images/shoushushi_o_4.jpg" tile3url="images/shoushushi_o_3.jpg" tilescale="1.009124087591241" tile2url="images/shoushushi_o_2.jpg" tile1url="images/shoushushi_o_1.jpg">
+      <preview color="0x808080"/>
+    </input>
+    <control simulatemass="1" lockedmouse="0" lockedkeyboard="0" dblclickfullscreen="0" invertwheel="0" lockedwheel="0" invertcontrol="1" speedwheel="1" sensitivity="8"/>
+  </panorama>
+</tour>
