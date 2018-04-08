@@ -4,7 +4,7 @@
 > 某学院的毕业项目
 ### 实现架构
 > 基于Spring boot搭建
-<br/>
+>
 > 前端是基本的jquery
-<br/>
+>
 > 3d地图使用pano2vr
