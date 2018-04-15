@@ -5,6 +5,6 @@ import com.cui.phs.entity.CaseEntity;
 
 public interface CaseMapper {
 
-    List<CaseEntity> getCaseByKindId(int kindId);
+    List<CaseEntity> getCaseByDiseaseId(int diseaseId);
 
 }

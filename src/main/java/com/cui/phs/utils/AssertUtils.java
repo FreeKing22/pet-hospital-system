@@ -8,8 +8,6 @@ package com.cui.phs.utils;
 import com.cui.phs.exception.ServiceException;
 
 public class AssertUtils {
-    private AssertUtils() {
-    }
 
     public static <T> void assertNotNull(T data, String errCode, String errMsg) throws ServiceException {
         if (data == null) {

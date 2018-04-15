@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.cui.phs.mapper.QuizMapper">
+    <resultMap id="RM_QuizVo" type="com.cui.phs.entity.QuizEntity">
+        <result column="id" property="id"/>
+        <result column="disease_id" property="disease_id"/>
+        <result column="question" property="question"/>
+        <result column="choice_list" property="choice_list"/>
+        <result column="answer" property="answer"/>
+    </resultMap>
+
+    <select id = "getQuizByDiseaseId" resultMap="RM_QuizVo">
+        select *
+        from phs_quiz
+        where disease_id=#{disease_id}
+    </select>
+
+</mapper>

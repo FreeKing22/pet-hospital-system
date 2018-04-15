@@ -1,14 +1,18 @@
 package com.cui.phs.entity;
 
 import java.io.Serializable;
+import java.util.List;
 
 public class CaseEntity implements Serializable {
+
     private int id;
-    private int diseaseId;
-    private int kindId;
-    private String imageName;
-    private String diseaseName;
-    private String diseaseDescription;
+    private int disease_id;
+    private String name;
+    private String description;
+    private String image_list;
+    private List<String> imageList;
+    private String video;
+
 
     public int getId() {
         return id;
@@ -18,43 +22,51 @@ public class CaseEntity implements Serializable {
         this.id = id;
     }
 
-    public int getDiseaseId() {
-        return diseaseId;
+    public int getDisease_id() {
+        return disease_id;
     }
 
-    public void setDiseaseId(int diseaseId) {
-        this.diseaseId = diseaseId;
+    public void setDisease_id(int disease_id) {
+        this.disease_id = disease_id;
     }
 
-    public int getKindId() {
-        return kindId;
+    public String getName() {
+        return name;
     }
 
-    public void setKindId(int kindId) {
-        this.kindId = kindId;
+    public void setName(String name) {
+        this.name = name;
     }
 
-    public String getImageName() {
-        return imageName;
+    public String getDescription() {
+        return description;
     }
 
-    public void setImageName(String imageName) {
-        this.imageName = imageName;
+    public void setDescription(String description) {
+        this.description = description;
     }
 
-    public String getDiseaseName() {
-        return diseaseName;
+    public String getImage_list() {
+        return image_list;
     }
 
-    public void setDiseaseName(String diseaseName) {
-        this.diseaseName = diseaseName;
+    public void setImage_list(String image_list) {
+        this.image_list = image_list;
     }
 
-    public String getDiseaseDescription() {
-        return diseaseDescription;
+    public List<String> getImageList() {
+        return imageList;
     }
 
-    public void setDiseaseDescription(String diseaseDescription) {
-        this.diseaseDescription = diseaseDescription;
+    public void setImageList(List<String> imageList) {
+        this.imageList = imageList;
+    }
+
+    public String getVideo() {
+        return video;
+    }
+
+    public void setVideo(String video) {
+        this.video = video;
     }
 }

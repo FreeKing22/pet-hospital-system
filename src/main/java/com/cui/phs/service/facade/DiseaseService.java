@@ -1,13 +1,15 @@
 package com.cui.phs.service.facade;
 
 import java.util.List;
+import java.util.Map;
+
 import com.cui.phs.entity.DiseaseEntity;
-import com.cui.phs.entity.ImageEntity;
+import com.cui.phs.entity.DiseaseFrontEntity;
 
 public interface DiseaseService {
-    List<DiseaseEntity> listDiseaseByKind(int var1);
 
-    DiseaseEntity findDisease(int var1);
+    Map<String,List<DiseaseEntity>> getAllDisease();
 
-    ImageEntity findImage(int var1);
+    DiseaseFrontEntity getDisease(int diseaseId);
+
 }

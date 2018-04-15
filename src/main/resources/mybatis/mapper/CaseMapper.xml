@@ -1,18 +1,19 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.cui.phs.mapper.CaseMapper">
     <resultMap id="RM_CaseVo" type="com.cui.phs.entity.CaseEntity">
         <result column="id" property="id"/>
-        <result column="diseaseId" property="diseaseId"/>
-        <result column="kindId" property="kindId"/>
-        <result column="imageName" property="imageName"/>
-        <result column="diseaseName" property="diseaseName"/>
-        <result column="diseaseDescription" property="diseaseDescription"/>
+        <result column="disease_id" property="disease_id"/>
+        <result column="name" property="name"/>
+        <result column="description" property="description"/>
+        <result column="image_list" property="image_list"/>
+        <result column="video" property="video"/>
     </resultMap>
-    <select id = "getCaseByKindId"  resultMap="RM_CaseVo">
-        select
-        *
+    <select id = "getCaseByDiseaseId"  resultMap="RM_CaseVo">
+        select *
         from phs_case
-        where kindId=#{kindId}
+        where disease_id=#{disease_id}
     </select>
 </mapper>

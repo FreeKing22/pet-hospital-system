@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.cui.phs.mapper.WorkMapper">
+    <resultMap id="RM_WorkVo" type="com.cui.phs.entity.WorkEntity">
+        <result column="id" property="id"/>
+        <result column="job_id" property="job_id"/>
+        <result column="name" property="name"/>
+        <result column="description" property="description"/>
+        <result column="room" property="room"/>
+    </resultMap>
+
+    <select id = "getWorkByJobId" resultMap="RM_WorkVo">
+        select *
+        from phs_work
+        where job_id=#{job_id}
+    </select>
+
+</mapper>

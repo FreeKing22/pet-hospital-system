@@ -1,15 +1,15 @@
 package com.cui.phs.entity;
 
-import java.io.Serializable;
-import java.util.List;
-
-public class DiseaseEntity implements Serializable {
+/**
+ * Created by q_cui on 2018/4/15
+ */
+public class WorkEntity {
 
     private int id;
-    private int kind_id;
+    private int job_id;
     private String name;
     private String description;
-    private String image;
+    private String room;
 
     public int getId() {
         return id;
@@ -19,12 +19,12 @@ public class DiseaseEntity implements Serializable {
         this.id = id;
     }
 
-    public int getKind_id() {
-        return kind_id;
+    public int getJob_id() {
+        return job_id;
     }
 
-    public void setKind_id(int kind_id) {
-        this.kind_id = kind_id;
+    public void setJob_id(int job_id) {
+        this.job_id = job_id;
     }
 
     public String getName() {
@@ -43,11 +43,11 @@ public class DiseaseEntity implements Serializable {
         this.description = description;
     }
 
-    public String getImage() {
-        return image;
+    public String getRoom() {
+        return room;
     }
 
-    public void setImage(String image) {
-        this.image = image;
+    public void setRoom(String room) {
+        this.room = room;
     }
 }
