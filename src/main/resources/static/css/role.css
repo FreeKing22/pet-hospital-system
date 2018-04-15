@@ -1,0 +1,50 @@
+* {
+    font-family: "Microsoft YaHei Light";
+}
+html{
+    height: 100%;
+}
+body {
+    color: #553445;
+    background: url(../img/bg1.jpg);
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 100%;
+}
+
+.codrops-header {
+    padding-top: 5%;
+}
+
+.module-btn,.module-txt {
+
+    text-align: center;
+}
+
+.module-btn p, .module-txt p {
+
+    display: inline-block;
+    text-align: left;
+    vertical-align: top;
+}
+.module-txt p{
+    width: 30%;
+    font-size: 1em;
+}
+.module-btn p a {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    font-size: 1.8em;
+    padding: 0.5em;
+    border: 1px solid #553445;
+    border-radius: 1em 0 1em 0;
+}
+
+.module-btn p a:hover {
+    padding: 0.5em;
+    color: #fff;
+    background: rgba(103,194,212,.2);
+    border: 1px dashed #67c2d4;
+}

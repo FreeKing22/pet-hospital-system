@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>CaseStudy</title>
+    <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="css/demo.css" />
+    <link rel="stylesheet" type="text/css" href="css/index.css" />
+    <link rel="stylesheet" type="text/css" href="css/tabs.css" />
+    <link rel="stylesheet" type="text/css" href="css/tabstyles.css" />
+    <style>
+        .module-btn p {
+            width: 30%;
+        }
+
+        .codrops-header a {
+            border-bottom: 1px dashed;
+            padding-bottom: 0.3em;
+        }
+
+        section {
+            max-width: 100%;
+            min-height: 500px;
+            overflow: auto;
+        }
+
+        section p {
+            font-size: 1em;
+        }
+
+        .case-submenu a {
+            float: left;
+            width: 27%;
+            font-size: 1.2em;
+            display: inline-block;
+            text-align: center;
+            vertical-align: top;
+            padding: 0.5em;
+            margin: 1.5em;
+            border: 1px solid #553445;
+            border-radius: 1em 0 1em 0;
+        }
+
+        .case-submenu a:hover {
+            padding: 0.5em;
+            color: #67c2d4;
+            background: rgba(103, 194, 212, .2);
+            border: 1px dashed #67c2d4;
+        }
+
+    </style>
+</head>
+<body>
+<div class="container">
+    <header class="codrops-header">
+        <h1>学习测评</h1>
+        <p>Case Test</p>
+        <a href="../index">返回主页</a>
+    </header>
+    <section>
+        <div class="tabs tabs-style-shape">
+            <nav>
+                <ul>
+                    <li> <a href="#section-shape-1">
+                        <svg viewbox="0 0 80 60" preserveaspectratio="none">
+                            <use xlink:href="#tabshape"></use>
+                        </svg> <span>传染病</span> </a> </li>
+                    <li> <a href="#section-shape-2">
+                        <svg viewbox="0 0 80 60" preserveaspectratio="none">
+                            <use xlink:href="#tabshape"></use>
+                        </svg>
+                        <svg viewbox="0 0 80 60" preserveaspectratio="none">
+                            <use xlink:href="#tabshape"></use>
+                        </svg> <span>寄生虫病</span> </a> </li>
+                    <li> <a href="#section-shape-3">
+                        <svg viewbox="0 0 80 60" preserveaspectratio="none">
+                            <use xlink:href="#tabshape"></use>
+                        </svg>
+                        <svg viewbox="0 0 80 60" preserveaspectratio="none">
+                            <use xlink:href="#tabshape"></use>
+                        </svg> <span>内科病例</span> </a> </li>
+                    <li> </li>
+                </ul>
+            </nav>
+            <div class="content-wrap">
+                <section id="section-shape-1">
+                    <div class="case-submenu">
+                        <!--  <a href="test.html?id=1">犬瘟热</a>-->
+                        <a href="">犬瘟热</a>
+                        <a href="">犬细小病毒</a>
+                        <a href="">犬传染性肝炎</a>
+                        <a href="">犬冠状病毒</a>
+                        <a href="">猫泛白细胞减少症</a>
+                        <a href="">猫病毒性病气管炎</a>
+                        <a href="">皮肤真菌感染</a>
+                    </div>
+                </section>
+                <section id="section-shape-2">
+                    <div class="case-submenu">
+                    </div>
+                </section>
+                <section id="section-shape-3">
+                    <div class="case-submenu">
+                    </div>
+                </section>
+                <!--<section id="section-shape-4">-->
+                <!--<div class="case-submenu">-->
+                <!--<a href="">外伤</a>-->
+                <!--<a href="">外科感染</a>-->
+                <!--<a href="">骨折</a>-->
+                <!--<a href="">关节脱位</a>-->
+                <!--<a href="">湿疹</a>-->
+                <!--<a href="">皮炎</a>-->
+                <!--<a href="">脓皮病</a>-->
+                <!--<a href="">脱毛症</a>-->
+                <!--<a href="">趾间囊肿</a>-->
+                <!--<a href="">疝</a>-->
+                <!--<a href="">阴道炎</a>-->
+                <!--<a href="">阴道脱出</a>-->
+                <!--<a href="">子宫蓄脓</a>-->
+                <!--<a href="">难产</a>-->
+                <!--<a href="">乳房炎</a>-->
+                <!--</div>-->
+                <!--</section>-->
+                <!--<section id="section-shape-5">-->
+                <!--<div class="case-submenu">-->
+                <!--<a href="">绝育</a>-->
+                <!--<a href="">剖腹产</a>-->
+                <!--<a href="">瞬膜腺增生物切除</a>-->
+                <!--<a href="">眼球摘除</a>-->
+                <!--<a href="">立耳术</a>-->
+                <!--<a href="">断尾术</a>-->
+                <!--</div>-->
+                <!--</section>-->
+                <!--<section id="section-shape-6">-->
+                <!--<div class="case-submenu">-->
+                <!--<a href="">犬免疫程序</a>-->
+                <!--<a href="">猫免疫程序</a>-->
+                <!--</div>-->
+                <!--</section>-->
+            </div>
+            <!-- /content -->
+        </div>
+        <!-- /tabs -->
+    </section>
+    <svg class="hidden">
+        <defs>
+            <path id="tabshape" d="M80,60C34,53.5,64.417,0,0,0v60H80z" />
+        </defs>
+    </svg>
+</div>
+<script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+<script type="text/javascript" src="js/modernizr.custom.js"></script>
+<script type="text/javascript" src="js/case.js"></script>
+<script type="text/javascript" src="js/canvas-particle.js"></script>
+<script type="text/javascript" src="js/cbpFWTabs.js"></script>
+<script type="text/javascript">
+    window.onload = function() {
+        var config = {
+            vx: 4,
+            vy: 4,
+            height: 3,
+            width: 3,
+            count: 150,
+            color: "121, 162, 185",
+            stroke: "100,200,180",
+            dist: 6000,
+            e_dist: 20000,
+            max_conn: 10
+        }
+        CanvasParticle(config);
+
+    };
+    (function() {
+
+        [].slice.call(document.querySelectorAll('.tabs')).forEach(function(el) {
+            new CBPFWTabs(el);
+        });
+    })();
+</script>
+</body>
+</html>

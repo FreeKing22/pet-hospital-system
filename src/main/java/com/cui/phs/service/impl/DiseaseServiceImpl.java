@@ -11,7 +11,6 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import com.cui.phs.mapper.DiseaseMapper;
 import com.cui.phs.entity.DiseaseEntity;
-import com.cui.phs.entity.DiseaseEntity;
 import com.cui.phs.service.facade.DiseaseService;
 
 @Service

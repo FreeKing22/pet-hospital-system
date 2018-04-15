@@ -4,5 +4,5 @@ import java.util.List;
 import com.cui.phs.entity.CaseEntity;
 
 public interface CaseService {
-    List<CaseEntity> findCaseByDisease(int var1);
+    List<CaseEntity> getCaseByKind(int kindId);
 }

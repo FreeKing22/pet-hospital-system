@@ -4,51 +4,57 @@ import java.io.Serializable;
 
 public class CaseEntity implements Serializable {
     private int id;
-    private int dId;
-    private int imageId;
-    private String description;
-    private String name;
-
-    public CaseEntity() {
-    }
+    private int diseaseId;
+    private int kindId;
+    private String imageName;
+    private String diseaseName;
+    private String diseaseDescription;
 
     public int getId() {
-        return this.id;
+        return id;
     }
 
     public void setId(int id) {
         this.id = id;
     }
 
-    public int getdId() {
-        return this.dId;
+    public int getDiseaseId() {
+        return diseaseId;
     }
 
-    public void setdId(int dId) {
-        this.dId = dId;
+    public void setDiseaseId(int diseaseId) {
+        this.diseaseId = diseaseId;
     }
 
-    public int getImageId() {
-        return this.imageId;
+    public int getKindId() {
+        return kindId;
     }
 
-    public void setImageId(int imageId) {
-        this.imageId = imageId;
+    public void setKindId(int kindId) {
+        this.kindId = kindId;
     }
 
-    public String getDescription() {
-        return this.description;
+    public String getImageName() {
+        return imageName;
     }
 
-    public void setDescription(String description) {
-        this.description = description;
+    public void setImageName(String imageName) {
+        this.imageName = imageName;
     }
 
-    public String getName() {
-        return this.name;
+    public String getDiseaseName() {
+        return diseaseName;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setDiseaseName(String diseaseName) {
+        this.diseaseName = diseaseName;
+    }
+
+    public String getDiseaseDescription() {
+        return diseaseDescription;
+    }
+
+    public void setDiseaseDescription(String diseaseDescription) {
+        this.diseaseDescription = diseaseDescription;
     }
 }

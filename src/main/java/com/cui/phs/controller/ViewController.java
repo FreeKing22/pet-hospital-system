@@ -15,6 +15,9 @@ public class ViewController {
         return "index";
     }
 
+    @RequestMapping("/login")
+    public String login(){return "login";}
+
     @RequestMapping("/rolePlay")
     public String rolePlay(){
         return "rolePlay/roleChoose";
@@ -50,10 +53,13 @@ public class ViewController {
         return "caseStudy/diseaseStudy";
     }
 
-    @RequestMapping("/caseStudy/diseaseStudy/dog")
+    @RequestMapping("/dogDisease")
     public String dogDisease(){
         return "caseStudy/dogDisease";
     }
+
+    @RequestMapping("/caseTest")
+    public String caseTest(){return  "caseStudy/caseTest";}
 
 
 }

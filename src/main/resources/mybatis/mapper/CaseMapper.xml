@@ -3,21 +3,16 @@
 <mapper namespace="com.cui.phs.mapper.CaseMapper">
     <resultMap id="RM_CaseVo" type="com.cui.phs.entity.CaseEntity">
         <result column="id" property="id"/>
-        <result column="dId" property="dId"/>
-        <result column="imageId" property="imageId"/>
-        <result column="description" property="description"/>
-        <result column="name" property="name"/>
+        <result column="diseaseId" property="diseaseId"/>
+        <result column="kindId" property="kindId"/>
+        <result column="imageName" property="imageName"/>
+        <result column="diseaseName" property="diseaseName"/>
+        <result column="diseaseDescription" property="diseaseDescription"/>
     </resultMap>
-    <select id = "findCase"  resultMap="RM_CaseVo">
+    <select id = "getCaseByKindId"  resultMap="RM_CaseVo">
         select
-        id,dId,imageId,description
+        *
         from phs_case
-        where id=#{id}
-    </select>
-    <select id = "findCaseByDisease" resultMap="RM_CaseVo">
-        select
-        id,dId,imageId,description
-        from phs_case
-        where dId=#{dId}
+        where kindId=#{kindId}
     </select>
 </mapper>

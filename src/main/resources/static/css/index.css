@@ -29,14 +29,14 @@
         	vertical-align: top;
     }
     .module-txt p{
-    	width: 30%;
+    	width: 20%;
     	font-size: 1em;
     }
     .module-btn p a {
         display: inline-block;
         text-align: center;
         width: 100%;
-        font-size: 1.8em;
+        font-size: 1em;
         padding: 0.5em;
         border: 1px solid #553445;
         border-radius: 1em 0 1em 0;
