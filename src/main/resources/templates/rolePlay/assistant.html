@@ -71,31 +71,24 @@
         <p>Assistant Doctor</p>
         <p>助理的职责是，积极参加科室内的抢救工作要求，在抢救病人过程中，做到处理得当，抢救及时，及时完成病程记录。对疑难危重病情，及时向上级助理报告病情，提出抢救或转运意见并采取相应的抢救措施，以保证病人安全。 </p>
         <a style="margin-right: 1em;" href="../index">返回主页</a>
+<!--
         <a href="../rolePlay">重选角色</a>
+-->
     </header>
     <hr />
     <div class="codrops-header">
         <h2>I 工作流程</h2>
         <ul class="work-list">
-            <li> <a href="../html/overview/index.html">进入科室</a> <p>工作内容1</p> <p> 带领实习助理对病员进行检查，诊断及治疗，书写医嘱，并检查医嘱执行情况，每日巡视病人至少2次，对危重症病人应多次巡视并做好记录。</p> </li>
-            <hr />
-            <li> <a href="../html/overview/index.html">进入科室</a> <p>工作内容2</p> <p> 书写病历(第一年写大病历，以后写入院录)应于病人入院24小时内完成。及时检查和修改实习助理的病历记录、病程录及其他各项记录，及时完成出院病案小结并将病案整理编号交上级助理审查。</p> </li>
-            <hr />
-            <li> <a href="../html/overview/index.html">进入科室</a> <p>工作内容3</p> <p> 及时向上级助理报告诊断及治疗上的困难以及病情变化，撰写会诊、转科、出院等记录。</p> </li>
-            <hr />
-            <li> <a href="../html/overview/index.html">进入科室</a> <p>工作内容4</p> <p> 住院助理对所管病员全面负责，在下班前做好交接班工作，对需要特殊观察的重症病人除书面交班外，用口头方式向值班助理交班。</p> </li>
-            <hr />
-            <li> <a href="../html/overview/index.html">进入科室</a> <p>工作内容5</p> <p> 参加科内查房、科主任、主治助理查房或巡视病人时，应详细汇报病员的病情的会诊情况，并记录巡诊后的意见，临床病例讨论会上要汇报病历。</p> </li>
-            <hr />
-            <li> <a href="../html/overview/index.html">进入科室</a> <p>工作内容6</p> <p> 认真执行各项规章制度和技术操作常规，指导或亲自操作各种重要检查和治疗，严防差错事故的发生，如发生差错应及时向科主任汇报并主动登记。。</p> </li>
-            <hr />
-            <li> <a href="../html/overview/index.html">进入科室</a> <p>工作内容7</p> <p> 有危重病人时不论家住院内院外，必须等接班者到位后才能离去。如因交接班不严而发生差错事故，要追究责任。</p> </li>
         </ul>
     </div>
 </div>
 <script type="text/javascript" src="../js/canvas-particle.js"></script>
+<script type="text/javascript" src="../js/jquery-1.10.2.min.js"></script>
+<script type="text/javascript" src="../js/common.js"></script>
+<script type="text/javascript" src="../js/rolePlay/work.js"></script>
 <script type="text/javascript">
     window.onload = function() {
+        work.init();
         var config = {
             vx: 4,
             vy: 4,

@@ -1,5 +1,5 @@
-;( function( window ) {
-	
+( function( window ) {
+
 	'use strict';
 
 	function extend( a, b ) {

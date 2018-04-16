@@ -38,18 +38,18 @@ public class ApiController {
         return diseaseService.getAllDisease();
     }
 
-    @RequestMapping(value = "/disease/{diseaseId}", method = RequestMethod.POST)
-    public DiseaseFrontEntity getDisease(@PathVariable Integer diseaseId){
+    @RequestMapping(value = "/disease/detail", method = RequestMethod.POST)
+    public DiseaseFrontEntity getDisease(Integer diseaseId){
         return diseaseService.getDisease(diseaseId);
     }
 
-    @RequestMapping(value = "/quiz/{diseaseId}", method = RequestMethod.POST)
-    public List<QuizEntity> getQuiz(@PathVariable Integer diseaseId){
+    @RequestMapping(value = "/quiz/detail", method = RequestMethod.POST)
+    public List<QuizEntity> getQuiz(Integer diseaseId){
         return quizService.getRandomQuiz(diseaseId);
     }
 
-    @RequestMapping(value = "/work/{jobId}", method = RequestMethod.POST)
-    public List<WorkEntity> getWork(@PathVariable Integer jobId){
+    @RequestMapping(value = "/work/detail", method = RequestMethod.POST)
+    public List<WorkEntity> getWork(Integer jobId){
         return workService.getWorksByJobId(jobId);
     }
 
