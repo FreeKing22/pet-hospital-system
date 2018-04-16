@@ -48,18 +48,18 @@ public class ViewController {
         return "caseStudy/caseChoose";
     }
 
-    @RequestMapping("/caseStudy/diseaseStudy")
+    @RequestMapping("/caseStudy/diseaseStudy/{id}")
     public String diseaseStudy(){
         return "caseStudy/diseaseStudy";
     }
 
-    @RequestMapping("/dogDisease")
+/*    @RequestMapping("/dogDisease")
     public String dogDisease(){
         return "caseStudy/dogDisease";
-    }
+    }*/
 
-    @RequestMapping("/caseTest")
-    public String caseTest(){return  "caseStudy/caseTest";}
+    @RequestMapping("/quizChoose")
+    public String caseTest(){return  "quiz/quizChoose";}
 
 
 }

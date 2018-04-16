@@ -65,7 +65,7 @@
     </style>
 </head>
 <body>
-<div class="container">
+<div class="contianer">
     <header class="codrops-header">
         <h1>助理</h1>
         <p>Assistant Doctor</p>
@@ -82,13 +82,14 @@
         </ul>
     </div>
 </div>
+<script type="text/javascript" src="../js/modernizr.custom.js"></script>
 <script type="text/javascript" src="../js/canvas-particle.js"></script>
 <script type="text/javascript" src="../js/jquery-1.10.2.min.js"></script>
 <script type="text/javascript" src="../js/common.js"></script>
 <script type="text/javascript" src="../js/rolePlay/work.js"></script>
 <script type="text/javascript">
+    work.init();
     window.onload = function() {
-        work.init();
         var config = {
             vx: 4,
             vy: 4,

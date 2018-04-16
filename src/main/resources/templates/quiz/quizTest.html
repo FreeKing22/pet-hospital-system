@@ -30,11 +30,11 @@
             font-size: 1em;
         }
 
-        .case-submenu a {
+        .case-submenu>div {
             float: left;
-            width: 27%;
+            width: 18%;
+            height: 200px;
             font-size: 1.2em;
-            display: inline-block;
             text-align: center;
             vertical-align: top;
             padding: 0.5em;
@@ -43,20 +43,35 @@
             border-radius: 1em 0 1em 0;
         }
 
-        .case-submenu a:hover {
+        .case-submenu>div{
+            display: flex;
+            justify-content:center;
+            flex-direction:column
+        }
+
+        .case-submenu>div:hover {
             padding: 0.5em;
             color: #67c2d4;
             background: rgba(103, 194, 212, .2);
             border: 1px dashed #67c2d4;
+            cursor: pointer;
         }
+
+        .case-submenu>div>div{
+            display: flex;
+            justify-content:center;
+            font-size: 1.5rem;
+            padding: 1rem;
+        }
+
 
     </style>
 </head>
 <body>
-<div class="container">
+<div class="contianer">
     <header class="codrops-header">
-        <h1>学习测评</h1>
-        <p>Case Test</p>
+        <h1>病例学习</h1>
+        <p>Case Study</p>
         <a href="../index">返回主页</a>
     </header>
     <section>
@@ -66,35 +81,37 @@
                     <li> <a href="#section-shape-1">
                         <svg viewbox="0 0 80 60" preserveaspectratio="none">
                             <use xlink:href="#tabshape"></use>
-                        </svg> <span>传染病</span> </a> </li>
+                        </svg> <span>传染病例</span> </a>
+                    </li>
                     <li> <a href="#section-shape-2">
                         <svg viewbox="0 0 80 60" preserveaspectratio="none">
                             <use xlink:href="#tabshape"></use>
                         </svg>
                         <svg viewbox="0 0 80 60" preserveaspectratio="none">
                             <use xlink:href="#tabshape"></use>
-                        </svg> <span>寄生虫病</span> </a> </li>
+                        </svg> <span>寄生虫病</span> </a>
+                    </li>
                     <li> <a href="#section-shape-3">
                         <svg viewbox="0 0 80 60" preserveaspectratio="none">
                             <use xlink:href="#tabshape"></use>
                         </svg>
                         <svg viewbox="0 0 80 60" preserveaspectratio="none">
                             <use xlink:href="#tabshape"></use>
-                        </svg> <span>内科病例</span> </a> </li>
-                    <li> </li>
+                        </svg> <span>内科病例</span> </a>
+                    </li>
+                    <li> <a href="#section-shape-4">
+                        <svg viewbox="0 0 80 60" preserveaspectratio="none">
+                            <use xlink:href="#tabshape"></use>
+                        </svg>
+                        <svg viewbox="0 0 80 60" preserveaspectratio="none">
+                            <use xlink:href="#tabshape"></use>
+                        </svg> <span>其他病例</span> </a>
+                    </li>
                 </ul>
             </nav>
             <div class="content-wrap">
                 <section id="section-shape-1">
                     <div class="case-submenu">
-                        <!--  <a href="test.html?id=1">犬瘟热</a>-->
-                        <a href="">犬瘟热</a>
-                        <a href="">犬细小病毒</a>
-                        <a href="">犬传染性肝炎</a>
-                        <a href="">犬冠状病毒</a>
-                        <a href="">猫泛白细胞减少症</a>
-                        <a href="">猫病毒性病气管炎</a>
-                        <a href="">皮肤真菌感染</a>
                     </div>
                 </section>
                 <section id="section-shape-2">
@@ -105,43 +122,11 @@
                     <div class="case-submenu">
                     </div>
                 </section>
-                <!--<section id="section-shape-4">-->
-                <!--<div class="case-submenu">-->
-                <!--<a href="">外伤</a>-->
-                <!--<a href="">外科感染</a>-->
-                <!--<a href="">骨折</a>-->
-                <!--<a href="">关节脱位</a>-->
-                <!--<a href="">湿疹</a>-->
-                <!--<a href="">皮炎</a>-->
-                <!--<a href="">脓皮病</a>-->
-                <!--<a href="">脱毛症</a>-->
-                <!--<a href="">趾间囊肿</a>-->
-                <!--<a href="">疝</a>-->
-                <!--<a href="">阴道炎</a>-->
-                <!--<a href="">阴道脱出</a>-->
-                <!--<a href="">子宫蓄脓</a>-->
-                <!--<a href="">难产</a>-->
-                <!--<a href="">乳房炎</a>-->
-                <!--</div>-->
-                <!--</section>-->
-                <!--<section id="section-shape-5">-->
-                <!--<div class="case-submenu">-->
-                <!--<a href="">绝育</a>-->
-                <!--<a href="">剖腹产</a>-->
-                <!--<a href="">瞬膜腺增生物切除</a>-->
-                <!--<a href="">眼球摘除</a>-->
-                <!--<a href="">立耳术</a>-->
-                <!--<a href="">断尾术</a>-->
-                <!--</div>-->
-                <!--</section>-->
-                <!--<section id="section-shape-6">-->
-                <!--<div class="case-submenu">-->
-                <!--<a href="">犬免疫程序</a>-->
-                <!--<a href="">猫免疫程序</a>-->
-                <!--</div>-->
-                <!--</section>-->
+                <section id="section-shape-4">
+                    <div class="case-submenu">
+                    </div>
+                </section>
             </div>
-            <!-- /content -->
         </div>
         <!-- /tabs -->
     </section>
@@ -151,12 +136,14 @@
         </defs>
     </svg>
 </div>
-<script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
 <script type="text/javascript" src="js/modernizr.custom.js"></script>
-<script type="text/javascript" src="js/case.js"></script>
 <script type="text/javascript" src="js/canvas-particle.js"></script>
 <script type="text/javascript" src="js/cbpFWTabs.js"></script>
+<script type="text/javascript" src="../js/jquery-1.10.2.min.js"></script>
+<script type="text/javascript" src="../js/common.js"></script>
+<script type="text/javascript" src="../js/caseStudy/diseaseAll.js"></script>
 <script type="text/javascript">
+    diseaseAll.init();
     window.onload = function() {
         var config = {
             vx: 4,
@@ -171,7 +158,6 @@
             max_conn: 10
         }
         CanvasParticle(config);
-
     };
     (function() {
 
