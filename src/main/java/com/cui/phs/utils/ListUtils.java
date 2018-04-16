@@ -21,7 +21,6 @@ public class ListUtils {
                 int random = (int) (Math.random() * list.size());
                 if (!map.containsKey(random)) {
                     map.put(random, "");
-                    System.out.println(random + "===========" + list.get(random));
                     listNew.add(list.get(random));
                 }
             }

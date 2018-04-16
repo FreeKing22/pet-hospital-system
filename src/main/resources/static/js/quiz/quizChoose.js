@@ -36,7 +36,6 @@ quizChoose.initSection = function(diseaseList){
 quizChoose.bindSection = function () {
     $(".case-submenu>div").on('click',function () {
         var id = $(this).find("#diseaseId").html();
-        console.log(id);
         window.location.href = "../quiz/" + id;
     });
 }
