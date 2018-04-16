@@ -53,13 +53,15 @@ public class ViewController {
         return "caseStudy/diseaseStudy";
     }
 
-/*    @RequestMapping("/dogDisease")
-    public String dogDisease(){
-        return "caseStudy/dogDisease";
-    }*/
-
     @RequestMapping("/quizChoose")
-    public String caseTest(){return  "quiz/quizChoose";}
+    public String quizChoose(){
+        return  "quiz/quizChoose";
+    }
+
+    @RequestMapping("/quiz/{diseaseId}")
+    public String quizTest(){
+        return  "quiz/quizTest";
+    }
 
 
 }

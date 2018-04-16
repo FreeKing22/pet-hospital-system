@@ -141,9 +141,9 @@
 <script type="text/javascript" src="js/cbpFWTabs.js"></script>
 <script type="text/javascript" src="../js/jquery-1.10.2.min.js"></script>
 <script type="text/javascript" src="../js/common.js"></script>
-<script type="text/javascript" src="../js/caseStudy/diseaseAll.js"></script>
+<script type="text/javascript" src="../js/quiz/quizChoose.js"></script>
 <script type="text/javascript">
-    diseaseAll.init();
+    quizChoose.init();
     window.onload = function() {
         var config = {
             vx: 4,
@@ -160,7 +160,6 @@
         CanvasParticle(config);
     };
     (function() {
-
         [].slice.call(document.querySelectorAll('.tabs')).forEach(function(el) {
             new CBPFWTabs(el);
         });
