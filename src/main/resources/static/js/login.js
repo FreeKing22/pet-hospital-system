@@ -1,50 +1,22 @@
 function login() {
-    var username = $("input#login-username").val();
-    var password = $("input#login-password").val();
-    var data = new Object();
-    data.username = username;
-    data.password = password;
     $.ajax({
-            type: "POST",
-            url: "/user/login",
-            contentType: "application/json",
-            data: JSON.stringify(data),
-            processData: false,
-            success: function (result) {
-                alert(result.data);
-                if(result.succeed){
-                    window.location.href="../index";
-                }
+        //几个参数需要注意一下
+        type: "POST",//方法类型
+        dataType: "json",//预期服务器返回的数据类型
+        url: "/api/login" ,//url
+        data: $('#loginForm').serialize(),
+        success: function (result) {
+            if(result.resultCode ==0){
+                window.location.href='/index';
             }
+            else if (result.resultMessage&&result.resultMessage.length>0) {
+                alert(result.resultMessage);
+            }
+            else
+                alert("登录失败");
+        },
+        error : function() {
+            alert("登录失败");
         }
-    )
-}
-
-function signup() {
-    var username = $("input#signup-username").val();
-    var password = $("input#signup-password").val();
-    var repeat = $("input#signup-repeat").val();
-    var data = new Object();
-
-    if(password!=repeat){
-        alert("两次输入的密码不一致，请重新输入！");
-    }
-    else{
-        data.username = username;
-        data.password = password;
-        $.ajax({
-                type: "POST",
-                url: "/user/signUp",
-                contentType: "application/json",
-                data: JSON.stringify(data),
-                processData: false,
-                success: function (result) {
-                    alert(result.data);
-                    if(result.succeed){
-                        window.location.href="../index";
-                    }
-                }
-            }
-        )
-    }
+    });
 }

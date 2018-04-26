@@ -5,10 +5,10 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<title>Login</title>
-	<link rel="stylesheet" type="text/css" href="../css/normalize.css" />
-	<link rel="stylesheet" type="text/css" href="../css/demo.css" />
-	<link rel="stylesheet" type="text/css" href="../css/component.css" />
-	<link rel="stylesheet" type="text/css" href="../css/content.css" />
+	<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+	<link rel="stylesheet" type="text/css" href="css/demo.css" />
+	<link rel="stylesheet" type="text/css" href="css/component.css" />
+	<link rel="stylesheet" type="text/css" href="css/content.css" />
 	<style>
 		*{
 			font-family: "Microsoft YaHei Light";
@@ -30,113 +30,27 @@
 		<p>Virtual Pet Hospital Learning System</p>
 	</header>
 	<section>
-		<p>在使用本系统之前，请</p>
-		<div class="mockup-content">
-			<div class="morph-button morph-button-modal morph-button-modal-2 morph-button-fixed">
-				<button type="button">登 录</button>
-				<div class="morph-content">
-					<div>
-						<div class="content-style-form content-style-form-1">
-							<span class="icon icon-close">关闭</span>
-							<h2>登录</h2>
-							<form style="text-align: center">
-								<p><label>Username</label><input id="login-username" type="text" /></p>
-								<p><label>Password</label><input id="login-password" type="password" /></p>
-								<p><a id="button-login" onclick="login()">登录</a></p>
-							</form>
-						</div>
+		<p>在使用本系统之前，请登录</p>
+		<div >
+			<div >
+				<div>
+					<div class="content-style-form">
+						<form id="loginForm" style="text-align: center">
+							<p><label>Username</label><input name="userName" id="login-username" type="text" /></p>
+							<p><label>Password</label><input name="password" id="login-password" type="password" /></p>
+							<p style="font-size:30px"><a id="button-login" onclick="login()">登录</a></p>
+						</form>
 					</div>
 				</div>
 			</div>
-			<!-- morph-button -->
-			<strong class="joiner">或</strong>
-			<div class="morph-button morph-button-modal morph-button-modal-3 morph-button-fixed">
-				<button type="button">注 册</button>
-				<div class="morph-content">
-					<div>
-						<div class="content-style-form content-style-form-2">
-							<span class="icon icon-close">关闭</span>
-							<h2>注册</h2>
-							<form style="text-align: center">
-								<p><label>Username</label><input id="signup-username" type="text" /></p>
-								<p><label>Password</label><input id="signup-password" type="password" /></p>
-								<p><label>Repeat Password</label><input id="signup-repeat" type="password" /></p>
-								<p><a style="text-align: center" id="button-signup" onclick="signup()">注册</a></p>
-							</form>
-						</div>
-					</div>
-				</div>
-			</div>
-			<!-- morph-button -->
 		</div>
-		<!-- /form-mockup -->
 	</section>
 </div>
 <!-- /container -->
 <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
 <script type="text/javascript" src="js/classie.js"></script>
-<script type="text/javascript" src="../js/uiMorphingButton_fixed.js"></script>
 <script type="text/javascript" src="js/modernizr.custom.js"></script>
-<script type="text/javascript" src="../js/login.js"></script>
-<script>
-    (function() {
-        var docElem = window.document.documentElement, didScroll, scrollPosition;
-
-        // trick to prevent scrolling when opening/closing button
-        function noScrollFn() {
-            window.scrollTo( scrollPosition ? scrollPosition.x : 0, scrollPosition ? scrollPosition.y : 0 );
-        }
-
-        function noScroll() {
-            window.removeEventListener( 'scroll', scrollHandler );
-            window.addEventListener( 'scroll', noScrollFn );
-        }
-
-        function scrollFn() {
-            window.addEventListener( 'scroll', scrollHandler );
-        }
-
-        function canScroll() {
-            window.removeEventListener( 'scroll', noScrollFn );
-            scrollFn();
-        }
-
-        function scrollHandler() {
-            if( !didScroll ) {
-                didScroll = true;
-                setTimeout( function() { scrollPage(); }, 60 );
-            }
-        };
-
-        function scrollPage() {
-            scrollPosition = { x : window.pageXOffset || docElem.scrollLeft, y : window.pageYOffset || docElem.scrollTop };
-            didScroll = false;
-        };
-
-        scrollFn();
-
-        [].slice.call( document.querySelectorAll( '.morph-button' ) ).forEach( function( bttn ) {
-            new UIMorphingButton( bttn, {
-                closeEl : '.icon-close',
-                onBeforeOpen : function() {
-                    // don't allow to scroll
-                    noScroll();
-                },
-                onAfterOpen : function() {
-                    // can scroll again
-                    canScroll();
-                },
-                onBeforeClose : function() {
-                    // don't allow to scroll
-                    noScroll();
-                },
-                onAfterClose : function() {
-                    // can scroll again
-                    canScroll();
-                }
-            } );
-        } );
-    })();
-</script>
+<script type="text/javascript" src="js/uiMorphingButton_fixed.js"></script>
+<script type="text/javascript" src="js/login.js"></script>
 </body>
 </html>
